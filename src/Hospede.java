@@ -1,4 +1,4 @@
-public class Cliente {
+public class Hospede {
 
     private String nome;
     private String cpf;
@@ -42,11 +42,11 @@ public class Cliente {
         this.telefone = telefone;
     }
 
-    public String getCheckIn() {
+    public int getCheckIn() {
         return checkIn;
     }
 
-    public String getCheckOut() {
+    public int getCheckOut() {
         return checkOut;
     }
 
@@ -58,7 +58,7 @@ public class Cliente {
         this.checkOut = checkOut;
     }
 
-    public String getLogin() {
+    public int getLogin() {
         return login;
     }
 

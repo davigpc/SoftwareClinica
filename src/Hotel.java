@@ -1,10 +1,12 @@
+import java.util.List;
+
 public class Hotel {
 
     private String nome;
     private String cnpj;
     private String endereco;
     private String telefone;
-    private List<funcionarios> funcionarios;
+    private List<Funcionario> funcionarios;
 
     public String getNome() {
         return nome;
@@ -19,7 +21,7 @@ public class Hotel {
     }
 
     public void setCnpj(String cnpj) {
-        this.ncnpj = cnpj;
+        this.cnpj = cnpj;
     }
 
     public String getEndereco() {
