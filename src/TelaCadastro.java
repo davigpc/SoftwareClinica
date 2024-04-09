@@ -100,14 +100,6 @@ public class TelaCadastro extends JFrame implements ActionListener {
         }
     }
 
-    public static void salvaFuncionario(Funcionario obj, File file) throws IOException {
-        try (FileOutputStream fos = new FileOutputStream(file);
-             ObjectOutputStream oos = new ObjectOutputStream(fos)) {
-            oos.writeObject(obj);
-            oos.flush();
-        }
-    }
-
     public static void escritor(String path, Funcionario obj) throws IOException {
 
         FileWriter fw = new FileWriter(path, true);

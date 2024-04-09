@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 import java.io.Serializable;
 import java.util.Arrays;
 
@@ -49,7 +49,4 @@ public class Funcionario extends Pessoa implements Serializable {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-=======
-public class Funcionario{
->>>>>>> Stashed changes
 }

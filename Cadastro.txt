@@ -1,0 +1,3 @@
+Funcionario{nome='Nome', cpf=CPF, telefone=Telefone, endereco=Endereco, login=Login, senha=[S, e, n, h, a]}
+Funcionario{nome='davi', cpf=43242, telefone=6345, endereco=Enderecoud9sduasi, login=Login8u0432, senha=[S, e, n, h, a, j, j, j, k, k]}
+Funcionario{nome='joao', cpf=111111, telefone=222222, endereco=Enderecoud9sduasi, login=Login8u0432, senha=[S, e, n, h, a, j, j, j, k, k]}
